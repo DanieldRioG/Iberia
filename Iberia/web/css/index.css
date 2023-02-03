@@ -1,0 +1,58 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+}
+
+header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    font-style: italic;
+    color: yellowgreen;
+    text-shadow: 5px 5px #e5e5e5;
+    text-align: center;
+}
+
+table,
+tr,
+th,
+td {
+    border: 0px solid #000;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+th {
+    background-color: grey;
+    color: white;
+}
+
+td {
+    background-color: aliceblue;
+}
+
+caption {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#tabla,
+#tabla2 {
+    margin: auto;
+    margin-top: 2%;
+}
+
+#tabla2 {
+    margin-top: 5%;
+}
